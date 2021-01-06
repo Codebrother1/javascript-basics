@@ -58,7 +58,7 @@ const newGreeting = function(name){
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-const groceries = ["apples", "milk", "eggs", "bread"]
+groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -68,7 +68,7 @@ const groceries = ["apples", "milk", "eggs", "bread"]
 //and goodBoy (a boolean).
 
 //Code Here
-const dog = {
+  const dog = {
   name: "spike",
   color: "brown",
   age: 12,
@@ -80,7 +80,7 @@ const dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-dog.name = devMountainClassPet;
+devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -94,12 +94,12 @@ dog.name = devMountainClassPet;
 // Code here
 function nameCheck(name){
  if(name === "Steven"){
-   return `What is up Steven`
+   return `What is up Steven?`
  } else {
    if(name === "Bryan"){
      return `Hey Bryan!`
    }else{
-     return `Cool name ${name}`
+     return `Cool name, ${name}`
    }
  }
 }
