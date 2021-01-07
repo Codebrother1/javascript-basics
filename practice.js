@@ -140,7 +140,7 @@ if(color === "red"){
     return `green is a solid favorite color`
   }else{
     if(color === "black"){
-      return `so trendy'`
+      return `so trendy`
     }else{
       return `you need to evaluate your favorite color choice`
     }
